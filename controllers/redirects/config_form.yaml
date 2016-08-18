@@ -1,0 +1,10 @@
+name: Redirects
+form: $/robvw/urlredirect/models/redirect/fields.yaml
+modelClass: RobVW\UrlRedirect\Models\Redirect
+defaultRedirect: robvw/urlredirect/redirects
+create:
+    redirect: 'robvw/urlredirect/redirects/update/:id'
+    redirectClose: robvw/urlredirect/redirects
+update:
+    redirect: robvw/urlredirect/redirects
+    redirectClose: robvw/urlredirect/redirects

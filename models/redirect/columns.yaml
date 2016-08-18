@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    redirect_from:
+        label: 'Redirect from'
+        type: text
+        searchable: true
+        sortable: true
+    redirect_to:
+        label: 'Redirect to'
+        type: text
+        searchable: true
+        sortable: true
+    redirect_active:
+        label: Active
+        type: switch
+        searchable: true
+        sortable: true

@@ -1,0 +1,11 @@
+plugin:
+    name: 'robvw.urlredirect::lang.plugin.name'
+    description: 'robvw.urlredirect::lang.plugin.description'
+    author: 'Rob VW'
+    icon: oc-icon-arrow-circle-o-right
+    homepage: ''
+navigation:
+    robvw-redirects-menu-item:
+        label: 'Manage Redirects'
+        url: robvw/urlredirect/redirects
+        icon: icon-arrow-right

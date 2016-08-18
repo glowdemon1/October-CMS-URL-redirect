@@ -1,0 +1,22 @@
+fields:
+    redirect_from:
+        label: 'Redirect from:'
+        oc.commentPosition: ''
+        span: full
+        placeholder: /the-old-url/should-be-relative/to-the-websites-domain
+        required: 1
+        type: text
+    redirect_to:
+        label: 'Redirect to:'
+        oc.commentPosition: ''
+        span: full
+        placeholder: 'http://example.com/the-url-to-redirect-to'
+        required: 1
+        type: text
+    redirect_active:
+        label: Active
+        span: auto
+        default: 0
+        context:
+            - update
+        type: checkbox
